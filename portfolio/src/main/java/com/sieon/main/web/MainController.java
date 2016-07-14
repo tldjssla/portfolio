@@ -31,4 +31,9 @@ public class MainController {
 		}
 		return mv;
 	}
+	
+	@RequestMapping("/main/goMainPage")
+	public String goMainPage(){
+		return "/main/mainPage";
+	}
 }
