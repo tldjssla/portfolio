@@ -6,12 +6,11 @@
 </div>
 <div class="menubar">
 	<ul>
-		<li><a href="#">start</a></li>
-		<li><a href="#">featured</a></li>
-		<li><a href="#">for designs</a></li>
-		<li><a href="#">about</a></li>	
-		<li><a href="#">support</a></li>
-		<li><a href="#">login</a></li>
+		<li><a href="#">Introduce</a></li>
+		<li><a href="#">Portfolio</a></li>	
+		<li><a href="#">Study</a></li>
+		<li><a href="#">Photo</a></li>
+		<li><a href="#">Contact me</a></li>
 	</ul>
 </div>
 </header>
