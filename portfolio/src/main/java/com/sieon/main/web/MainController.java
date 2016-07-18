@@ -36,4 +36,14 @@ public class MainController {
 	public String goMainPage(){
 		return "/main/mainPage";
 	}
+	
+	@RequestMapping("/main/goIntroPage")
+	public String goIntroPage(){
+		return "/main/introPage";
+	}
+	
+	@RequestMapping("/main/goPhotoGallery")
+	public String goPhotoGallery(){
+		return "/main/photoGallery";
+	}
 }
