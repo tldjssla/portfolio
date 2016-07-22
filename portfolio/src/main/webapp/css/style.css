@@ -5,7 +5,7 @@ html,body{height: 100%;margin: 0;padding: 0}
 .body .container .introTable .table tr td{height:50px;font-size: 14pt;text-align: center;}
 .body .container .introTable .table  tr td:first-child{width:30%}
 .body .container .introTable .table  tr td:nth-child(2){width:70%}
-.body .container .mainImage{width: 50%;display:block;margin-left: auto;margin-right: auto;}
+/* .body .container .mainImage{width: 50%;display:block;margin-left: auto;margin-right: auto;} */
 .header{width:75%;height: 150px;padding-top: 50px;margin: 0 auto;}
 .header .logo{width: 40%;float: left;padding-top: 15px}
 .header .logo img{width: 65px;height: 65px}
@@ -14,3 +14,26 @@ html,body{height: 100%;margin: 0;padding: 0}
 .header .menubar li  a{display: block;text-decoration: none;color: black;}
 .header .menubar ul li .selected{color: red;}
 .footer{text-align: center;position: absolute;width: 100%;margin-top: -100px;height: 100px}
+
+.sub_div .sub_four{
+	margin-top:50px;
+	height:250px;
+	width: 40%;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	
+}
+.sub_div .sub_four a img{width: 100%}
+
+.main_active{
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+}
+
+/* .main_div{	
+}
+.main_div .mainImage{
+	width:100%;
+	height: 300px;
+} */

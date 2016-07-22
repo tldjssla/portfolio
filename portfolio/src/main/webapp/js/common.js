@@ -1,11 +1,17 @@
 	$(document).ready(function() {
-		$('.menubar ul li a').hover(function() {
-			$(this).addClass('selected')	
+		$('.navbar-addclass ul li').hover(function() {
+			$(this).addClass('active')	
 		}, function() {
-			$(this).removeClass('selected')
+			$(this).removeClass('active')
 		}
 		);
 		
+		$('.sub_four').hover(function() {
+			$(this).addClass('main_active')	
+		}, function() {
+			$(this).removeClass('main_active')
+		}
+		);
 		
 		// We only want these styles applied when javascript is enabled
 		$('div.navigation').css({'width' : '300px', 'float' : 'left'});
