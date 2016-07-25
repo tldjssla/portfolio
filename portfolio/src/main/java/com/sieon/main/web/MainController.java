@@ -46,4 +46,9 @@ public class MainController {
 	public String goPhotoGallery(){
 		return "/main/photoGallery";
 	}
+	
+	@RequestMapping("/madin/goPortfolio")
+	public String goPortfolio(){
+		return "/main/portfolio";
+	}
 }

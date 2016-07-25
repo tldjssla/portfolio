@@ -13,6 +13,33 @@
 		}
 		);
 		
+		$('.sub_four').hover(function() {
+			$(this).addClass('main_active')	
+		}, function() {
+			$(this).removeClass('main_active')
+		}
+		);
+		
+		// 포트폴리오 클릭 클래스 추가 함수
+		$('.left_menu .portfolio_name').click(function() {
+			var menu_element = $('.left_menu .portfolio_name');
+			var contents_element = $('.right_menu .portfolio_contents');
+			var menu_index = (menu_element).index(this);
+			var contents_index = (contents_element).eq(menu_index);
+			
+			//initializing  init 함수 따로만들기 
+			contents_element.removeClass("show");
+			menu_element.removeClass("selected");
+			
+			//addClass
+			(contents_element).eq(menu_index).addClass("show");
+			(menu_element).eq(menu_index).addClass("selected");
+			
+		});
+		
+		
+		
+		
 		// We only want these styles applied when javascript is enabled
 		$('div.navigation').css({'width' : '300px', 'float' : 'left'});
 		$('div.content').css('display', 'block');

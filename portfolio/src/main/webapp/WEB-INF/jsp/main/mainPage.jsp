@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <link type="text/css" rel="stylesheet" href="/css/style.css">
+<link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css" rel="stylesheet" type="text/css" />
 <script src="/js/common.js"></script>
 </head>
 <body>
@@ -16,13 +17,12 @@
 	<jsp:include page="/WEB-INF/jsp/header.jsp"></jsp:include> 
 	<div class="body">
 		<div class="container">
-			<!-- <img class="mainImage" alt="mainImage" src="/images/mainPhoto.jpg"> -->
-<!-- 			<div class="main_div">
-				<img class="mainImage" alt="mainImage" src="/images/main/mainImage.jpg">
-			</div> -->
+			<div class="main_div" >
+				<h2><p>Sieon's Portfolio</p> </h2>
+			</div> 
 			<div class="sub_div">
 				<div class="sub_four"><a href="/main/goIntroPage.do"><img alt="intro" src="/images/main/intro_small.jpg"></a></div>
-				<div class="sub_four"><a href="#"><img alt="portfolio" src="/images/main/portfolio_small.jpg"></a></div>
+				<div class="sub_four"><a href="/madin/goPortfolio.do"><img alt="portfolio" src="/images/main/portfolio_small.jpg"></a></div>
 				<div class="sub_four"><a href="#"><img alt="study" src="/images/main/study_small.jpg"></a></div>
 				<div class="sub_four"><a href="/main/goPhotoGallery.do"><img alt="photo" src="/images/main/camera_small.jpg"></a></div>				
 			</div>

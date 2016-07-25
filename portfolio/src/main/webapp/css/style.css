@@ -1,4 +1,8 @@
-html,body{height: 100%;margin: 0;padding: 0}
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+html,body{height: 100%;margin: 0;padding: 0;font-family: 'Hanna', sans-serif; }
 .body{min-height:100%;margin-top:-150px}
 .body .container{width: 75%;margin:0 auto;padding-top:180px;text-align: left;}
 .body .container .introTable{width: 80%;margin: 0 auto;}
@@ -15,22 +19,20 @@ html,body{height: 100%;margin: 0;padding: 0}
 .header .menubar ul li .selected{color: red;}
 .footer{text-align: center;position: absolute;width: 100%;margin-top: -100px;height: 100px}
 
-.sub_div .sub_four{
-	margin-top:50px;
-	height:250px;
-	width: 40%;
-	float: left;
-	margin-right: 5%;
-	margin-left: 5%;
-	
-}
-.sub_div .sub_four a img{width: 100%}
+.container .main_div{text-align: center;}
+.sub_div .sub_four{margin-top:20px;height:250px;width: 40%;float: left;margin-right: 5%;margin-left: 5%;}
+.sub_div .sub_four a img{width: 100%;height: 220px}
+.main_active{-webkit-filter: grayscale(100%);filter: gray;}
+.container .left_menu{width: 25%;float: left;-ms-user-select: none;-moz-user-select: -moz-none;-khtml-user-select: none;-webkit-user-select: none;user-select: none;}
+.container .left_menu .portfolio_name{font-size: 12pt;font-weight: bold;width: 100%;height: 50px;background-color:#FAECC5;border: 1px solid;margin-top: 1px;text-align: center;padding-top: 15px;}
+.container .right_menu{	width: 65%;	float: left;margin-left: 3%;}
+.container .right_menu .portfolio_contents{display: none;}
+.container .right_menu .portfolio_contents tr td{font-size: 12pt;height: 30px}
+.container .right_menu .portfolio_contents tr td:nth-child(1){width: 25%}
+.container .right_menu .portfolio_contents tr td:nth-child(2){width: 70%}
 
-.main_active{
-	-webkit-filter: grayscale(100%);
-	filter: gray;
-}
-
+.container .right_menu .show{display: block;}
+.container .left_menu .selected{background-color:#F29661 }
 /* .main_div{	
 }
 .main_div .mainImage{
