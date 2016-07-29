@@ -45,7 +45,7 @@
 					</tr>
 					<tr>
 						<td>블로그</td>
-						<td>tldjssla.tstory.com</td>					
+						<td>tldjssla.tistory.com</td>					
 					</tr>
 					<tr>
 						<td>한마디</td>

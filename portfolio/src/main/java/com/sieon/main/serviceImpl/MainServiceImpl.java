@@ -1,6 +1,7 @@
 package com.sieon.main.serviceImpl;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,4 +32,19 @@ public class MainServiceImpl  extends EgovAbstractServiceImpl implements MainSer
 		}
 		  return data;
 	  }
+
+	@Override
+	public String getClientIp(HttpServletRequest request) throws Exception {
+		String ip = request.getHeader("X-FORWARED-FOR");
+	     if(ip == null || ip.length() == 0) {
+	         ip = request.getHeader("Proxy-Client-IP");
+	     }
+	     if(ip == null || ip.length() == 0) {
+	         ip = request.getHeader("WL-Proxy-Client-IP");  // 웹로직
+	     }
+	     if(ip == null || ip.length() == 0) {
+	         ip = request.getRemoteAddr() ;
+	     }
+		return ip;
+	}
 }

@@ -98,7 +98,7 @@
 						</tr>												
 					</table>						
 				</div>
-								<div class="portfolio_contents">
+				<div class="portfolio_contents">
 				<table class="table table-striped">
 						<tr>
 							<td>일시</td>

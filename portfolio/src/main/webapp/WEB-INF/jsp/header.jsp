@@ -32,8 +32,8 @@
      
       <ul class="nav navbar-nav navbar-right">
       		<li><a href="/main/goIntroPage.do">Introduce</a></li>
-      		<li><a href="/madin/goPortfolio.do">Portfolio</a></li>
-      		<li><a href="#">Study</a></li>
+      		<li><a href="/main/goPortfolio.do">Portfolio</a></li>
+      		<li><a href="/main/goStudy.do">Study</a></li>
       		<li><a href="/main/goPhotoGallery.do">Photo</a></li>	
 			<li><a href="#" data-toggle="modal" data-target="#myModal">Contact me</a></li>
       </ul>
